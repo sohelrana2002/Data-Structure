@@ -37,6 +37,5 @@ int main()
         cout << myArray[i] <<" ";
     }
 
-
     return 0;
 }
