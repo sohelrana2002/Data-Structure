@@ -25,8 +25,8 @@ int main()
            
     }
 
-    cout << even <<endl;
-    cout << odd;
+    cout <<"Number of Even: " << even <<endl;
+    cout <<"Number of odd: " << odd;
 
     return 0;
 }

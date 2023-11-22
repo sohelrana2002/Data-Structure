@@ -49,6 +49,7 @@ void showFunction()
         getchar();
         main();
     }
+    cout <<"Reverse Order: ";
     while (top >= 0)
     {
         cout << myArray[top] << " ";

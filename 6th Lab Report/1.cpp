@@ -31,7 +31,7 @@ int main(){
         }
 
         if(count == 0){
-            cout << myArray[i];
+            cout << myArray[i] << ", ";
         }
     }
     cout <<endl;
