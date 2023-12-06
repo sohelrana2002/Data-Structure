@@ -25,7 +25,7 @@ int main()
             }
         }
     }
-    cout << "Bubble Sort new array: ";
+    cout << "Bubble Sort(descending order) new array: ";
     for (i = 0; i < n; i++)
     {
         cout << myArray[i] << " ";
