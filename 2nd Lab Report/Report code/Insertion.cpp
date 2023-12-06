@@ -20,15 +20,15 @@ int main()
         cout << " " << myArray[i];
     }
 
-    int j = n;
     int k;
     cout << "\nEnter Insert index in array: ";
     cin >> k;
 
+    int j = n;
     while (j >= k)
     {
         myArray[j + 1] = myArray[j];
-        j -= 1;
+        j--;
     }
     int item;
     cout << "Enter insert value: ";
