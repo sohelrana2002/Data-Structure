@@ -1,23 +1,19 @@
 #include <iostream>
 using namespace std;
 
-void quickSort(int number[20], int first, int last)
-{
+void quickSort(int number[20], int first, int last){
     int i, j, pivot, temp;
 
-    if (first < last)
-    {
+    if (first < last){
         pivot = first;
         i = first;
         j = last;
-        while (i < j)
-        {
+        while (i < j){
             while (number[i] <= number[pivot] && i < last)
                 i++;
             while (number[j] > number[pivot])
                 j--;
-            if (i < j)
-            {
+            if (i < j){
                 temp = number[i];
                 number[i] = number[j];
                 number[j] = temp;
@@ -31,13 +27,11 @@ void quickSort(int number[20], int first, int last)
     }
 }
 
-int main()
-{
+int main(){
     int i, count, number[20];
     cout << "Enter elements (<= 20): ";
     cin >> count;
-    for (i = 0; i < count; i++)
-    {
+    for (i = 0; i < count; i++){
         cout << "Enter " << (i + 1) << " element: ";
         cin >> number[i];
     }
