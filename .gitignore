@@ -11,14 +11,10 @@ node_modules
 dist
 dist-ssr
 *.local
+Final Report/
 
-# Editor directories and files
+# Compiled files
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+*.exe
+*.o
