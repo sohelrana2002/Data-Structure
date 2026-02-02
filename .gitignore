@@ -1,12 +1,17 @@
+# Local environment files
 *.local
+
+# Folders to ignore
 Final Report/
 Mid Syllabus/
 Data Structure book/
 Final Syllabus/
 
-# Compiled files
+# VS Code settings (ignore all except extensions.json)
 .vscode/*
 !.vscode/extensions.json
+
+# Compiled / generated files
 *.exe
 *.o
 *.pdf
