@@ -1,21 +1,20 @@
-# Local / environment files
+# Ignore local environment files
 *.local
 
-# Study materials / docs
+# Ignore folders (your study materials)
 Final Report/
 Mid Syllabus/
 Data Structure book/
 Final Syllabus/
-*.pdf
-Final Syllabus/DS[1].pdf  (124 MB)
 
-
-
-# Compiled C/C++ files
+# Ignore compiled C++ files
 *.exe
 *.o
 *.out
 
-# VS Code settings
+# Ignore PDF files
+*.pdf
+
+# VS Code settings (ignore all except extensions.json)
 .vscode/*
 !.vscode/extensions.json
