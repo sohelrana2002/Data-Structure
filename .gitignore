@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ignore local environment files
 *.local
 
@@ -18,3 +19,29 @@ Final Syllabus/
 # VS Code settings (ignore all except extensions.json)
 .vscode/*
 !.vscode/extensions.json
+=======
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+>>>>>>> dde765e37c9c2707a0a0ffcfba52fe10a4814c21
